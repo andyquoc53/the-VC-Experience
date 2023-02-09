@@ -1,0 +1,123 @@
+html{
+  font-family: "Lexend Mega", sans-serif;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+body{
+  margin: 0;
+}
+/* Navbar */
+
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list a{
+  color: black;
+  padding: 10px;
+}
+
+.intro-sec{
+  background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+  height: 300px;
+  margin-top: 35px;
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.intro-description{
+  background-color: white;
+  width: 100%;
+}
+
+
+
+
+/* Benefit sector */
+
+.benefit-description{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.benefit-pic img{
+  width: 200px;
+  height: auto;
+  padding: 10px;
+}
+
+.benefit-pic{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.benefit-pic h4{
+  text-align: center;
+  min-width: 240px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.benefit-intro{
+  padding: 5px;
+}
+
+h2, h3, h4, p{
+  margin: 0;
+  padding: 10px;
+}
+
+/* Our Team Section */
+
+.member img{
+  width: 200px;
+  height: auto;
+}
+
+.team-description{
+  color: white;
+  background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.member{
+  flex-basis: 280px;
+  padding: 10px;
+}
+
+.benefit-sec{
+  padding-top: 70px;
+}
+
+/* Footer */
+
+.info-bar{
+  padding-top: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.copyright-bar{
+  padding: 20px;
+  font-size: 18px;
+}
+
+.info-bar p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.info-bar h2{
+  font-size: 33px;
+}
